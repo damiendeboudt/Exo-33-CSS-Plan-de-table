@@ -1,0 +1,70 @@
+.salle{
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+
+.table1, .table2, .table3, .table4{
+    width: 204px;
+    height: 104px;
+    border: 1px solid black;
+}
+.tb1, .tb2, .tb3, .tb4{
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+.tb1{
+    position: relative;
+    left: 50px;
+    background-color: #5e5555;
+}
+.tb4{
+    position: relative;
+    left: 50px;
+    top: -210px;
+    background-color: #75da15;
+}
+.tb2{
+    width: 50px;
+    height: 104px;
+    position: relative;
+    bottom: 53px;
+}
+.tb3{
+    width: 50px;
+    height: 104px;
+    position: relative;
+    left: 154px;
+    bottom: 159px;
+}
+.table2{
+    position: relative;
+    left: 200px;
+    top: 170px;
+}
+.table1{
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+.table3{
+    transform: rotate(90deg);
+    position: relative;
+    left: 600px;
+    bottom: 150px;
+}
+.table4{
+    transform: rotate(90deg);
+    position: relative;
+    left: 600px;
+    bottom: 25px;
+}
+.bureau{
+    transform: rotate(90deg);
+    position: relative;
+    right: 300px;
+    top: 50px;
+}
